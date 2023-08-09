@@ -1,0 +1,6 @@
+-
+ name: gethostname
+ hosts: all
+ tasks:
+    - name: Execute command 'hostname -s'
+      command: hostname -s
